@@ -1,0 +1,290 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1110px ;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+.nav{
+    background: #3e8989;
+    padding: 37px 0;
+}
+
+
+.nav__content{
+    display: flex;
+  align-items: center;
+ justify-content: space-between;
+  
+}
+
+.nav__list{
+display: flex;
+gap: 60px;
+
+}
+
+.search{
+    display: flex;
+}
+
+.nav__list-link{
+    font-family: "Arial";
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+
+.nav__list-link:hover{
+    text-decoration: underline;
+}
+
+
+.nav__list input{
+    height: 25px;
+    border-radius: 10px 0px 0px 10px;
+   border: none;
+   outline: none;
+}
+
+
+.nav__list input::placeholder{
+  
+font-weight: 400;
+font-size: 16px;
+color: #898989;
+}
+
+.nav__list-search{
+    border-radius: 0 20px 20px 0;
+    width: 70px;
+    height: 25px;
+    background: #295E5E;
+    font-weight: 400;
+    color: #fff;
+    font-family: "Arial";
+    border: none;
+    outline: none;
+    padding: 4px 10px;
+}
+
+.header__content{
+    min-height: 800px;
+    background: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px ;
+    /* gap между текстом и кнопкой */
+}
+
+.header__title{
+    font-family: "Arial";
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.header__title span{
+    font-family: "Arial";
+    font-weight: 600 ;
+    font-size: 80px;
+    color: #fff;
+
+}
+
+
+.header__link{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background: #B4436C;
+    font-family: "Arial";
+    font-weight: 600;
+    font-size: 19px;
+    color: #fff;
+   padding: 14px 77px ;
+   transition: 0.5s;
+}
+
+.header__link:hover{
+background: #fff;
+color: #B4436C;
+}
+
+/* main */
+
+/* about */
+.about{ 
+   padding-bottom: 112px ;
+   
+}
+
+.about__title{
+font-family: "Arial";
+font-weight: 600;
+font-size: 40px;
+color: #3e8989;
+text-align: center;
+padding: 50px 0 40px 0;
+}
+
+.about__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+}
+
+.about__content-text-descr-1{
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}
+
+
+.about__content-text-descr-2{
+font-family: "Arial";
+font-weight: 400;
+font-size: 18px;
+color: #000;
+}
+
+/* catolog */
+
+
+.catalog{
+    padding-bottom: 70px;
+}
+
+.catalog__title{
+font-family: "Arial";
+font-weight: 600;
+font-size: 40px;
+color: #3e8989;
+text-align: center;
+padding-bottom: 53px;
+}
+
+.catalog__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.catalog__cards-item p{
+    font-family: "Arial";
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+  padding-top: 20px;
+}
+
+
+.catalog__cards-item p:hover{
+    color: #B4436C ;
+}
+
+/* contacts */
+
+.contacts__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    }
+
+.contacts__title{
+    font-family: "Arial";
+    font-weight: 600;
+    font-size: 40px;
+    color: #3e8989;
+    padding-bottom: 15px;
+}
+
+.contacs__text-descr{
+font-family:"Arial";
+font-weight: 400;
+font-size: 20px;
+color: #000;
+}
+
+.contact__details{
+display: flex;
+ flex-direction: column;
+padding-top: 30px;
+gap: 10px;
+  
+}
+
+.contact__details-link{
+font-family: "Arial";
+font-weight: 400;
+font-size: 20px;
+color: #000;
+}
+
+/* footer */
+
+.footer{
+    background: #3e8989;
+    padding: 40px 0 ;
+}
+
+
+.footer__list{
+    display: flex;
+    justify-content: center;
+    gap: 60px ;
+}
+
+.footer__list a:hover{
+    text-decoration: underline;
+}
+
+.footer__list-link{
+    font-family: "Arial";
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;   
+}
+
+
+.footer__text{
+    font-family: "Arial";
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+padding-top: 100px;
+    
+}
