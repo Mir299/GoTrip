@@ -18,6 +18,9 @@ a{
     text-decoration: none;
 }
 
+img{
+    max-width: 100%;
+}
 
 .container{
     width: 100%;
@@ -29,11 +32,15 @@ a{
 
 .wrapper{
     position: relative;
-    overflow: hidden;
-    height: 100vh;
+    overflow-x: hidden;
 }
 
 /* header */
+
+.header{
+    position: sticky;
+    top: 0;
+}
 
 .nav{
     background: #3e8989;
@@ -237,8 +244,8 @@ padding-bottom: 53px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
 }
+
 
 .catalog__cards-item p{
     font-family: "Arial";
@@ -292,6 +299,7 @@ font-family: "Arial";
 font-weight: 400;
 font-size: 20px;
 color: #000;
+text-decoration: underline;
 }
 
 /* footer */
@@ -305,7 +313,7 @@ color: #000;
 .footer__list{
     display: flex;
     justify-content: center;
-    gap: 60px ;
+    gap: 60px;
 }
 
 .footer__list a:hover{
@@ -326,6 +334,5 @@ color: #000;
     font-size: 14px;
     color: #fff;
     text-align: center;
-padding-top: 100px;
-    
+    padding-top: 100px;
 }

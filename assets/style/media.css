@@ -3,15 +3,26 @@
 
 
 @media (max-width:1200px)  { 
-     }
-
-
-
-
-
+     
+    .about__content{
+    gap: 20px;
+    }
+}
 
 @media (max-width:992px)  {
     
+      .about{
+        padding-bottom: 80px;
+      }
+
+    .about__title{
+        font-size: 35px;
+    }
+
+    .about__content{
+        flex-direction: column;
+    } 
+   
     .nav__list-link{
         padding: 22px 12px;
        
@@ -23,6 +34,10 @@
 
     .header__title{
         font-size: 30px;
+    }
+
+    .catalog__cards{
+        justify-content: space-around;
     }
 
 }
@@ -86,6 +101,8 @@
 
 
 }
+
+
 @media (max-width:576px)  {
 
     .header__title{
@@ -102,5 +119,30 @@
             padding: 14px 70px;
         }
 
+        .about__content-text-descr-1,.about__content-text-descr-2{
+            text-align: left;
+        }
+
+        .catalog__cards{
+            gap: 10px;
+        }
+
+        .contacts__content{
+            flex-direction: column;
+            text-align: center;
+        }
+} 
+
+@media (max-width:576px)  {
+
+    .footer__list{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer__text{
+        padding-top: 60px;
+    }
 
 }   
